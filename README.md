@@ -104,9 +104,10 @@ Se usarán dos navegadores (o perfiles de navegadores):
             1. Marcar Yes en “**Configure**”
             2. Include, marcar “**Any location**”
             3. Exclude, marcar **selected locations**. Escoger la locación creada en el paso 1
-        5. En **Enable Policy**, Marcar “**On**”
-        6. Puede aparecer un mensaje donde pide deshabilitar el “**Security Defaults**”, proceder a desactivar el mismo.
-        7. Hacer clic en “**Save**”
+        5. En **Grant** seleccionar **Block access**, despues hacer clic en **Select**
+        6. En **Enable Policy**, Marcar “**On**”
+        7. Puede aparecer un mensaje donde pide deshabilitar el “**Security Defaults**”, proceder a desactivar el mismo.
+        8. Hacer clic en “**Save**”
 3. Ir a **Identity > Users > All Users** y verificar que está el usuario previamente creado en el AD DS.
 **En Navegador B**
 4. Hacer inicio de sesión en <https://office.com> con el usuario que se creó en el AD DS (Usar el UPN indicado en Entra ID y la contraseña asignada en el AD DS)
